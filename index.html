@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">hhhh
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+        <h2>Registration Form</h2>
+        <p>Fill out the form carefully for registration</p>
+        <div class="content">
+            <div class="input-box">
+                <label for="name">Student Name</label>
+                <input type="text" placeholder="Enter your first Name" name="s-name" required>
+            </div>
+            <div class="input-box">
+                <label for="lastname">Last Name</label>
+                <input type="text" placeholder="Enter your last Name" name="l-name" required>
+            </div>
+            <!-- <span class="gender-title">Gender</span> -->
+            <div class="input-box">
+                <label for="gender">Gender</label>
+                <select class="gender" name="gender" required>
+                    <option>Please Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div class="input-box">
+                <label for="email">Student E-mail</label>
+                <input type="email" placeholder="ex:myname@example.com" name="email" required>
+            </div>
+            <div class="input-box">
+                <label for="id">Student ID</label>
+                <input type="text" name="id" required>
+            </div>
+            <div class="input-box">
+                <label for="list">List of Classes</label>
+                <select class="list" name="list" required>
+                    <option>Please Select</option>
+                    <option>100 level</option>
+                    <option>200 level</option>
+                    <option>300 level</option>
+                    <option>400 level</option>
+                    <option>500 level</option>
+                    <option>600 level</option>
+                </select>
+            </div>
+        </div>
+        <div class="button-container">
+            <button type="submit">Submit</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
